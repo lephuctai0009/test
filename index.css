@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 30px 250px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.user li input {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    right: 22px;
+    z-index: 1;
+}
+.user li i {
+    
+}
+.menu {
+    display: flex ;
+    align-items: end;
+}
+.menu li a {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.menu li a:hover{
+    background-color: aqua;
+    border-radius: 20px;
+}
+.body-list {
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.body-item {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.body-item ul li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.a1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.a2 {
+    display: flex;
+    justify-content: space-around;
+}
+.b1{
+    border-radius: 20px;
+    padding: 5px;
+}
+.b2{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: aliceblue;
+    background-color: blue;
+}
+.but{
+    position: relative;
+    top: 20px;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
